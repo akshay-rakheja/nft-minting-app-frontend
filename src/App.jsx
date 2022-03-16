@@ -34,7 +34,7 @@ const App = () => {
       
       console.log("Connected to chain " + chainId);
 
-      // String, hex code of the chainId of the Rinkebey test network
+      // String, hex code of the chainId of the Ropsten test network
       const ropstenChainId = "0x3"; 
       if (chainId !== ropstenChainId) {
       alert("You are not connected to the Ropsten Test Network!");
